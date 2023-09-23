@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+   .gradient-night {
+      @apply bg-[radial-gradient(circle_at_3%_25%,_var(--tw-gradient-stops))] from-[#002853] to-[#040C18] bg-repeat-y
+   }
+
+   .gradient_orange {
+      @apply bg-gradient-to-r from-orange-500 to-purple-600
+   }
+
+   .max_container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+   .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+   .orange_btn {
+      @apply bg-orange-600 rounded-md text-white hover:bg-orange-500 duration-300 px-6 py-2 text-sm font-Manrope font-medium
+   }
+
+   .transparent_btn {
+      @apply text-white hover:bg-purple-700 hover:text-white duration-300 rounded-md px-6 py-2 font-Manrope font-medium
+   }
+
+   .nav_links {
+      @apply  font-Manrope text-lg 
+   }
+
+   .nav_a_tags {
+      @apply bg-gradient-to-r from-orange-300 to-purple-400 bg-clip-text text-transparent hover:text-xl hover:bg-gradient-to-r hover:from-orange-500 hover:to-purple-600 duration-700 
+   }
+
+   .jocasta {
+      @apply text-3xl font-extrabold font-montserrat gradient_orange text-transparent bg-clip-text hover:text-[45px] duration-700 hover:cursor-pointer
+   }
+
+   .header_text {
+      @apply font-Manrope leading-[80px] font-[1000] bg-clip-text text-transparent bg-gradient-to-r to-orange-500 via-orange-300 from-purple-600
+   }
+
+   .header_input {
+      @apply bg-text-shade bg-opacity-25 py-5 focus:border-0 text-text-shade px-10 placeholder:text-text-shade placeholder:font-palanquin focus:outline-none text-xl leading-7 max-sm:py-0 max-sm:text-lg 
+   }
+
+   .footer_message {
+            @apply font-Manrope leading-[80px] font-[1000] bg-clip-text text-transparent bg-gradient-to-r to-orange-600 via-orange-300 from-purple-600
+   }
+
+   .footer_btn {
+      @apply border-white px-10 py-6 rounded-md border-4 hover:border-black duration-300 hover:bg-gradient-to-r hover:from-purple-700 hover:to-orange-500 text-3xl max-sm:text-xl font-montserrat font-bold
+   }
+}

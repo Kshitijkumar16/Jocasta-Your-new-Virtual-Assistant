@@ -1,0 +1,15 @@
+export { default as logo } from "./GPT-3.svg";
+export { default as atlassian } from "./atlassian.png";
+export { default as headerImg } from "./Hillustration.png";
+export { default as group } from "./Group81.png";
+export { default as shopifyLogo } from "./shopify.png";
+export { default as slackLogo } from "./slack.png";
+export { default as googleLogo } from "./google.png";
+export { default as dropdownLogo } from "./dropbox.png";
+export { default as atlassianLogo } from "./atlassian.png";
+export { default as copyrightLogo } from "./copyright-sign.svg";
+export { default as facebook } from "./facebook.svg";
+export { default as instagram } from "./instagram.svg";
+export { default as twitter } from "./twitter.svg";
+export { default as hamburgerLogo } from "./hamburger.svg";
+export { default as possibility } from "./possibilities.png";
