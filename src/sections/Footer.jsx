@@ -21,12 +21,15 @@ const Footer = () => {
           </p>
           <div id="social-links" className="mt-6 flex gap-6 ">
             {socialMedia.map((social) => (
-              <img
-                key={social.key}
-                src={social.img}
-                alt={social.alt}
-                className="bg-white rounded-full w-[40px] h-[40px] p-3"
-              />
+              <a href="#">
+                {" "}
+                <img
+                  key={social.key}
+                  src={social.img}
+                  alt={social.alt}
+                  className="bg-white rounded-full w-[40px] h-[40px] p-3"
+                />
+              </a>
             ))}
           </div>
         </div>
@@ -42,7 +45,7 @@ const Footer = () => {
               </h4>
               <ul className="mt-4 font-palanquin text-white-400">
                 {section.links.map((link) => (
-                  <li className="mt-2">
+                  <li key={link.key} className="mt-2">
                     <a href={link.link}>{link.name}</a>
                   </li>
                 ))}

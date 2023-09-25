@@ -19,7 +19,12 @@ export default {
         "orange-shade": "#F49867",
       },
       boxShadow: {
-        "custom-white": '4px 4px 6px #FFFFFF'
+        "custom-white": "4px 4px 6px #FFFFFF",
+      },
+      gridTemplateColumns: {
+        lgfluid: "repeat(auto-fit, minmax(420px, 1fr))",
+        mdfluid: "repeat(auto-fit, minmax(370px, 1fr))",
+        smfluid: "repeat(auto-fit, minmax(100px, 1fr))",
       },
     },
   },

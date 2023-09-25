@@ -3,7 +3,7 @@ import { headerImg, group } from "../assets";
 
 const Hero = () => {
   return (
-    <section className=" lg:max_container md:mt-6">
+    <section className=" lg:max_container md:mt-6 pb-24">
       <div id="container-1" className="md:flex items-center justify-between">
         <div className="">
           <h3 className="header_text text-[58px] max-sm:text-[30px] max-sm:leading-[40px] py-6 mt-16">
@@ -19,7 +19,7 @@ const Hero = () => {
             className="hidden max-md:block "
           />
 
-          <p className="text-text-shade mt-4 text-xl leading-8 font-palanquin max-sm:w-full text-justify">
+          <p className="text-text-shade lg:pr-4 text-xl leading-8 font-palanquin max-sm:w-full lg:text-justify">
             Unveil the brilliant AR of Jocasta,
             <span className="max-sm:hidden ">
               {" "}
